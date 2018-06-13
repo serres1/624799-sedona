@@ -28,11 +28,12 @@
 			</section>
 
 			<section class="slogan">
-				<h2>Седона-небольшой городок в аризоне, заслуживающий большего!</h2>
+				<p>Седона-небольшой городок в аризоне, заслуживающий большего!</p>
 				<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
 			</section>
 
 			<section class="description-all">
+				<h2 class="visually-hidden">Наши достопримечательности</h2>
 				<section class="description-img">
 					<div>
 						<h3>Настоящий городок</h3>
@@ -89,10 +90,39 @@
 				</section>
 			</section>
 			
-			<section class="order">
+			<section class="search">
+				<h2 class="visually-hidden">Поиск гостиницы</h2>
 				<p>Заинтересовались?</p>
 				<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+				<button type="button" class="button-search">Поиск гостиницы в Седоне</button>
 			</section>
+
+			<section class="map">
+				<img src="img/map.jpg" width="1200px" height="593px" alt="Карта Седоны">
+			</section>
+
+			<section class="popup-search">
+				<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+					<p class="date-arrival">
+						<label for="date-arrival">Дата заезда</label>
+						<input type="date" name="date-arrival" id="date-arrival" value="">
+					</p>
+					<p class="date-departure">
+						<label for="date-departure">Дата выезда</label>
+						<input type="date" name="date-departure" id="date-departure">
+					</p>
+					<p class="adults">
+						<label for="adults">Взрослые</label>
+						<input type="number" name="adults" id="adults" value=2>
+					</p>
+					<p class="children">
+						<label for="children">Дети</label>
+						<input type="number" name="children" id="children" value=0>
+					</p>
+					<button type="submit" class="button-send">Отправить</button>
+				</form>
+			</section>
+
 		</main>
 
 		<footer class="main-footer">
