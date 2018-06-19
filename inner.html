@@ -24,9 +24,9 @@
 		<main class="main-contenner">
 			<h1 class="visually-hidden">Поиск гостиницы</h1>
 			
-			<section class="filters">							<!--Фильтр-->
+			<section class="filter">							<!--Фильтр-->
 				<h2 class="visually-hidden">Поиск гостиницы</h2>
-				<form action="https://echo.htmlacademy.ru" method="post">
+				<form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
 					<fieldset>
 						<legend>Ифраструктура:</legend>
 						<ul>
@@ -68,7 +68,7 @@
 						</p>
 						<input type="range" name="" min="0" max="300">
 					</fieldset>
-					<button type="button">Показать</button>
+					<button type="submit">Показать</button>
 				</form>
 			</section>
 
@@ -170,13 +170,11 @@
 			<div class="hashtag">
 				<p>#visitSedona</p>
 			</div>
-			<div class="footer-social">
-				<ul>
-					<li><a class="social" href="#">Твиттер</a></li>
-					<li><a class="social" href="#">Фейсбук</a></li>
-					<li><a class="social" href="#">Ютуб</a></li>
+				<ul class="footer-social-list">
+					<li class="footer-social-item"><a class="twitter-social-button" href="#">Твиттер</a></li>
+					<li class="footer-social-item"><a class="facebook-social-button" href="#">Фейсбук</a></li>
+					<li class="footer-social-item"><a class="youtube-social-button" href="#">Ютуб</a></li>
 				</ul>
-			</div>
 			<div class="footer-copyright">
 				<p>Website by</p>
 				<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="115px" height="41px" alt="Логотип академии"></a>
